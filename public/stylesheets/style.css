@@ -10,3 +10,6 @@ a {
 li{
 	list-style: none;
 }
+button{
+    margin:8px;
+}

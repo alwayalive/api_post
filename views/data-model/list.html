@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>API列表</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        html,body{
+            height: 100%;
+        }
+        #container{
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+        #api-list{
+            position: absolute;
+            width:200px;
+            top:0;
+            bottom:0;
+            left:0;
+            overflow: auto;
+            border:1px solid #999988;
+        }
+        #edit-area{
+            position: absolute;
+            top:0;
+            bottom:0;
+            right:0;
+            left:221px;
+            overflow: auto;
+        }
+        li{
+            list-style:none;
+            padding:8px 0;
+        }
+        fieldset{
+            border:1px solid #999988;
+            padding:20px;
+        }
+        .input-key{
+            width:80px;
+        }
+        .input-val{
+            width:120px;
+        }
+        input[type="button"],input[type="reset"],input[type="submit"]{
+            margin:8px;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+</div>
+<script type="text/javascript" src="/assets/data-model-list.bundle.js"></script>
+</body>
+</html>
